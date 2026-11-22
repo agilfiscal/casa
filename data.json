@@ -1,7 +1,7 @@
 {
  "title": "Casa de Yann",
  "subtitle": "Planejamento da casa — lista de compras",
- "budget": 20000,
+ "budget": 30000,
  "items": [
   {
    "id": "i001",
@@ -802,5 +802,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T21:34:46.704Z"
+ "updatedAt": "2026-11-22T21:41:37.069Z"
 }
