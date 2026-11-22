@@ -692,6 +692,16 @@
    "realUnit": 32.9,
    "bought": true,
    "notes": ""
+  },
+  {
+   "id": "imwsf6e1o",
+   "category": "Reforma",
+   "name": "Porta do quarto",
+   "qty": 1,
+   "estUnit": 159.9,
+   "realUnit": 159.9,
+   "bought": true,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -832,5 +842,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:39:20.042Z"
+ "updatedAt": "2026-11-22T22:40:11.157Z"
 }
