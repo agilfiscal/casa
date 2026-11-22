@@ -752,6 +752,16 @@
    "realUnit": 11.9,
    "bought": true,
    "notes": ""
+  },
+  {
+   "id": "imwsfbwie",
+   "category": "Reforma",
+   "name": "Aduela do quarto",
+   "qty": 1,
+   "estUnit": 279.9,
+   "realUnit": 279.9,
+   "bought": true,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -892,5 +902,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:43:58.208Z"
+ "updatedAt": "2026-11-22T22:44:34.137Z"
 }
