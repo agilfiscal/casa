@@ -662,6 +662,16 @@
    "realUnit": 44.9,
    "bought": false,
    "notes": ""
+  },
+  {
+   "id": "imwsf14al",
+   "category": "Reforma",
+   "name": "Carreto",
+   "qty": 1,
+   "estUnit": 45,
+   "realUnit": 45,
+   "bought": false,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -802,5 +812,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:35:34.552Z"
+ "updatedAt": "2026-11-22T22:36:08.716Z"
 }
