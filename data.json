@@ -19,8 +19,8 @@
    "name": "Fogão 4 bocas",
    "qty": 1,
    "estUnit": 650,
-   "realUnit": null,
-   "bought": false,
+   "realUnit": 599.9,
+   "bought": true,
    "notes": "Conferir tipo de gás e espaço disponível."
   },
   {
@@ -782,5 +782,5 @@
    ]
   }
  ],
- "updatedAt": null
+ "updatedAt": "2026-11-22T21:25:54.883Z"
 }
