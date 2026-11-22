@@ -706,7 +706,7 @@
   {
    "id": "imwsf74yi",
    "category": "Reforma",
-   "name": "Piso do banheiro",
+   "name": "Azuleijo do banheiro",
    "qty": 21.87,
    "estUnit": 32.9,
    "realUnit": 32.9,
@@ -862,5 +862,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:41:32.438Z"
+ "updatedAt": "2026-11-22T22:41:51.787Z"
 }
