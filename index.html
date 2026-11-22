@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casa de Yann</title>
+<meta name="description" content="Planejamento da casa — lista de compras e orçamento">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div class="brand">
+      <h1 id="title">Casa de Yann</h1>
+      <p id="subtitle" class="muted">Planejamento da casa — lista de compras</p>
+    </div>
+    <div class="top-actions">
+      <span id="modeBadge" class="badge">Somente leitura</span>
+      <button id="loginBtn" class="btn ghost">Entrar para editar</button>
+      <button id="logoutBtn" class="btn ghost" hidden>Sair</button>
+    </div>
+  </div>
+  <nav class="wrap tabs" role="tablist">
+    <button class="tab active" data-tab="resumo" role="tab">Resumo</button>
+    <button class="tab" data-tab="lista" role="tab">Lista de compras</button>
+    <button class="tab" data-tab="prioridades" role="tab">Prioridades</button>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div id="loading" class="muted center pad">Carregando…</div>
+  <div id="error" class="alert" hidden></div>
+
+  <!-- RESUMO -->
+  <section id="tab-resumo" class="panel">
+    <div class="cards">
+      <div class="card">
+        <div class="label">Orçamento disponível</div>
+        <div class="big" id="kBudget"></div>
+        <input id="budgetInput" class="edit-only input" type="number" min="0" step="100" aria-label="Orçamento">
+      </div>
+      <div class="card">
+        <div class="label">Total estimado dos itens</div>
+        <div class="big" id="kEst"></div>
+        <div class="sub" id="kEstSaldo"></div>
+      </div>
+      <div class="card">
+        <div class="label">Total real gasto</div>
+        <div class="big" id="kReal"></div>
+        <div class="sub" id="kRealSaldo"></div>
+      </div>
+      <div class="card">
+        <div class="label">Itens comprados</div>
+        <div class="big" id="kBought"></div>
+        <div class="bar"><span id="kBoughtBar"></span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h2>Uso do orçamento</h2>
+        <span class="muted small" id="projNote"></span>
+      </div>
+      <div class="stack" id="budgetStack" aria-hidden="true"></div>
+      <div class="legend">
+        <span><i class="sw real"></i>Gasto real</span>
+        <span><i class="sw pend"></i>Estimado (pendente)</span>
+        <span><i class="sw free"></i>Livre</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Resumo por categoria</h2></div>
+      <div class="table-scroll">
+        <table class="cat-table">
+          <thead><tr><th>Categoria</th><th class="num">Estimado</th><th class="num">Real</th><th class="num">Saldo est. × real</th><th class="hide-sm">Progresso</th></tr></thead>
+          <tbody id="catBody"></tbody>
+          <tfoot id="catFoot"></tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- LISTA -->
+  <section id="tab-lista" class="panel" hidden>
+    <div class="toolbar">
+      <input id="q" class="input" type="search" placeholder="Buscar item ou observação…">
+      <select id="fCat" class="input"><option value="">Todas as categorias</option></select>
+      <select id="fStatus" class="input">
+        <option value="">Todos</option>
+        <option value="pend">Pendentes</option>
+        <option value="ok">Comprados</option>
+      </select>
+      <button id="addItem" class="btn primary edit-only">+ Novo item</button>
+      <button id="csvBtn" class="btn ghost">Baixar CSV</button>
+    </div>
+    <div id="list"></div>
+    <datalist id="catList"></datalist>
+  </section>
+
+  <!-- PRIORIDADES -->
+  <section id="tab-prioridades" class="panel" hidden>
+    <p class="muted">Ordem de prioridade das compras.</p>
+    <div id="prio" class="prio-grid"></div>
+  </section>
+
+  <p class="muted small center pad" id="updated"></p>
+</main>
+
+<!-- Barra de salvar -->
+<div id="saveBar" class="savebar" hidden>
+  <div class="wrap savebar-inner">
+    <span id="saveMsg">Alterações não salvas</span>
+    <div>
+      <button id="discardBtn" class="btn ghost">Descartar</button>
+      <button id="saveBtn" class="btn primary">Salvar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Login -->
+<dialog id="loginDlg">
+  <form method="dialog" id="loginForm">
+    <h2>Entrar para editar</h2>
+    <p class="small">Cole seu <b>token do GitHub</b> (fine-grained, com permissão <i>Contents: Read and write</i> só neste repositório). Ele fica salvo apenas neste navegador.</p>
+    <label class="small">Repositório
+      <input id="repoInput" class="input" placeholder="usuario/repositorio" required>
+    </label>
+    <label class="small">Token
+      <input id="tokenInput" class="input" type="password" placeholder="github_pat_…" required autocomplete="off">
+    </label>
+    <p id="loginErr" class="err small" hidden></p>
+    <div class="dlg-actions">
+      <button value="cancel" formnovalidate class="btn ghost">Cancelar</button>
+      <button id="loginGo" value="ok" class="btn primary">Entrar</button>
+    </div>
+  </form>
+</dialog>
+
+<div id="toast" class="toast" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,786 @@
+{
+ "title": "Casa de Yann",
+ "subtitle": "Planejamento da casa — lista de compras",
+ "budget": 20000,
+ "items": [
+  {
+   "id": "i001",
+   "category": "Cozinha",
+   "name": "Geladeira Frost Free 300–350 litros",
+   "qty": 1,
+   "estUnit": 2300,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Priorizar consumo eficiente e dimensões adequadas."
+  },
+  {
+   "id": "i002",
+   "category": "Cozinha",
+   "name": "Fogão 4 bocas",
+   "qty": 1,
+   "estUnit": 650,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Conferir tipo de gás e espaço disponível."
+  },
+  {
+   "id": "i003",
+   "category": "Cozinha",
+   "name": "Armário de cozinha ou balcão",
+   "qty": 1,
+   "estUnit": 500,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Medir a parede antes da compra."
+  },
+  {
+   "id": "i004",
+   "category": "Cozinha",
+   "name": "Micro-ondas",
+   "qty": 1,
+   "estUnit": 450,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Conferir voltagem."
+  },
+  {
+   "id": "i005",
+   "category": "Cozinha",
+   "name": "Liquidificador",
+   "qty": 1,
+   "estUnit": 150,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i006",
+   "category": "Cozinha",
+   "name": "Filtro de água simples",
+   "qty": 1,
+   "estUnit": 150,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Verificar instalação e refil."
+  },
+  {
+   "id": "i007",
+   "category": "Cozinha",
+   "name": "Lixeira",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i008",
+   "category": "Utensílios de cozinha",
+   "name": "Jogo de panelas",
+   "qty": 1,
+   "estUnit": 350,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i009",
+   "category": "Utensílios de cozinha",
+   "name": "Frigideira",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i010",
+   "category": "Utensílios de cozinha",
+   "name": "Jogo de pratos",
+   "qty": 1,
+   "estUnit": 120,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i011",
+   "category": "Utensílios de cozinha",
+   "name": "Copos e xícaras",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i012",
+   "category": "Utensílios de cozinha",
+   "name": "Talheres",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i013",
+   "category": "Utensílios de cozinha",
+   "name": "Facas de cozinha",
+   "qty": 1,
+   "estUnit": 80,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i014",
+   "category": "Utensílios de cozinha",
+   "name": "Potes para mantimentos",
+   "qty": 1,
+   "estUnit": 120,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i015",
+   "category": "Utensílios de cozinha",
+   "name": "Potes para guardar alimentos",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i016",
+   "category": "Utensílios de cozinha",
+   "name": "Escorredor de pratos",
+   "qty": 1,
+   "estUnit": 70,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i017",
+   "category": "Utensílios de cozinha",
+   "name": "Tábua de corte",
+   "qty": 1,
+   "estUnit": 40,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i018",
+   "category": "Utensílios de cozinha",
+   "name": "Garrafa térmica",
+   "qty": 1,
+   "estUnit": 60,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i019",
+   "category": "Utensílios de cozinha",
+   "name": "Assadeiras e formas",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i020",
+   "category": "Utensílios de cozinha",
+   "name": "Conchas, espátulas e utensílios",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i021",
+   "category": "Utensílios de cozinha",
+   "name": "Panos de prato",
+   "qty": 1,
+   "estUnit": 60,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i022",
+   "category": "Utensílios de cozinha",
+   "name": "Outros acessórios de cozinha",
+   "qty": 1,
+   "estUnit": 300,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Detalhar os itens comprados nas observações."
+  },
+  {
+   "id": "i023",
+   "category": "Quarto da mãe",
+   "name": "Cama de casal",
+   "qty": 1,
+   "estUnit": 600,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i024",
+   "category": "Quarto da mãe",
+   "name": "Colchão de casal",
+   "qty": 1,
+   "estUnit": 1000,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Priorizar conforto e densidade adequada."
+  },
+  {
+   "id": "i025",
+   "category": "Quarto da mãe",
+   "name": "Guarda-roupa",
+   "qty": 1,
+   "estUnit": 600,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Medir o espaço e conferir montagem."
+  },
+  {
+   "id": "i026",
+   "category": "Quarto do filho",
+   "name": "Cama infantil ou cama adequada à idade",
+   "qty": 1,
+   "estUnit": 500,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Escolher conforme idade e segurança da criança."
+  },
+  {
+   "id": "i027",
+   "category": "Quarto do filho",
+   "name": "Colchão infantil",
+   "qty": 1,
+   "estUnit": 400,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i028",
+   "category": "Quarto do filho",
+   "name": "Cômoda ou armário infantil",
+   "qty": 1,
+   "estUnit": 400,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i029",
+   "category": "Sala de estar",
+   "name": "Sofá de 2 ou 3 lugares",
+   "qty": 1,
+   "estUnit": 1200,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Conferir medidas de portas e circulação."
+  },
+  {
+   "id": "i030",
+   "category": "Sala de estar",
+   "name": "Rack ou painel",
+   "qty": 1,
+   "estUnit": 300,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i031",
+   "category": "Sala de estar",
+   "name": "Smart TV 43 polegadas",
+   "qty": 1,
+   "estUnit": 700,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i032",
+   "category": "Sala de jantar",
+   "name": "Mesa de jantar",
+   "qty": 1,
+   "estUnit": 400,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i033",
+   "category": "Sala de jantar",
+   "name": "Cadeiras",
+   "qty": 4,
+   "estUnit": 75,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Estimativa de R$ 300 para quatro unidades."
+  },
+  {
+   "id": "i034",
+   "category": "Lavanderia",
+   "name": "Máquina de lavar automática 10–12 kg",
+   "qty": 1,
+   "estUnit": 1600,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Conferir voltagem e dimensões."
+  },
+  {
+   "id": "i035",
+   "category": "Lavanderia",
+   "name": "Varal",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i036",
+   "category": "Lavanderia",
+   "name": "Balde e bacia",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i037",
+   "category": "Banheiro",
+   "name": "Espelho",
+   "qty": 1,
+   "estUnit": 80,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i038",
+   "category": "Banheiro",
+   "name": "Lixeira",
+   "qty": 1,
+   "estUnit": 40,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i039",
+   "category": "Banheiro",
+   "name": "Suporte para sabonete e shampoo",
+   "qty": 1,
+   "estUnit": 50,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i040",
+   "category": "Banheiro",
+   "name": "Tapete",
+   "qty": 1,
+   "estUnit": 40,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i041",
+   "category": "Banheiro",
+   "name": "Escova sanitária",
+   "qty": 1,
+   "estUnit": 30,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i042",
+   "category": "Banheiro",
+   "name": "Toalheiro e acessórios",
+   "qty": 1,
+   "estUnit": 60,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i043",
+   "category": "Banheiro",
+   "name": "Cortina ou acessórios de box (se necessário)",
+   "qty": 1,
+   "estUnit": 50,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i044",
+   "category": "Cama, mesa e banho",
+   "name": "Jogos de cama de casal",
+   "qty": 2,
+   "estUnit": 125,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Estimativa total de R$ 250."
+  },
+  {
+   "id": "i045",
+   "category": "Cama, mesa e banho",
+   "name": "Jogos de cama infantil",
+   "qty": 2,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Estimativa total de R$ 200."
+  },
+  {
+   "id": "i046",
+   "category": "Cama, mesa e banho",
+   "name": "Travesseiros",
+   "qty": 4,
+   "estUnit": 40,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Estimativa total de R$ 160."
+  },
+  {
+   "id": "i047",
+   "category": "Cama, mesa e banho",
+   "name": "Cobertores ou edredons",
+   "qty": 2,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Estimativa total de R$ 200."
+  },
+  {
+   "id": "i048",
+   "category": "Cama, mesa e banho",
+   "name": "Protetores de colchão",
+   "qty": 2,
+   "estUnit": 20,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Estimativa total de R$ 40."
+  },
+  {
+   "id": "i049",
+   "category": "Cama, mesa e banho",
+   "name": "Toalhas de banho",
+   "qty": 4,
+   "estUnit": 50,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Estimativa total de R$ 200."
+  },
+  {
+   "id": "i050",
+   "category": "Cama, mesa e banho",
+   "name": "Toalhas de rosto",
+   "qty": 4,
+   "estUnit": 25,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Estimativa total de R$ 100."
+  },
+  {
+   "id": "i051",
+   "category": "Cama, mesa e banho",
+   "name": "Tapetes de banheiro (enxoval)",
+   "qty": 2,
+   "estUnit": 25,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Estimativa total de R$ 50."
+  },
+  {
+   "id": "i052",
+   "category": "Cama, mesa e banho",
+   "name": "Toalha de mesa",
+   "qty": 1,
+   "estUnit": 60,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i053",
+   "category": "Cama, mesa e banho",
+   "name": "Jogos americanos",
+   "qty": 1,
+   "estUnit": 60,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i054",
+   "category": "Cama, mesa e banho",
+   "name": "Panos multiuso",
+   "qty": 1,
+   "estUnit": 80,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i055",
+   "category": "Cama, mesa e banho",
+   "name": "Outros itens de tecido",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i056",
+   "category": "Limpeza e organização",
+   "name": "Vassoura, rodo, pá e baldes",
+   "qty": 1,
+   "estUnit": 120,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i057",
+   "category": "Limpeza e organização",
+   "name": "Produtos de limpeza iniciais",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i058",
+   "category": "Limpeza e organização",
+   "name": "Lâmpadas",
+   "qty": 1,
+   "estUnit": 80,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Conferir soquetes e potência."
+  },
+  {
+   "id": "i059",
+   "category": "Limpeza e organização",
+   "name": "Cabides",
+   "qty": 1,
+   "estUnit": 60,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i060",
+   "category": "Limpeza e organização",
+   "name": "Cortinas",
+   "qty": 1,
+   "estUnit": 100,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Medir janelas."
+  },
+  {
+   "id": "i061",
+   "category": "Limpeza e organização",
+   "name": "Organizadores",
+   "qty": 1,
+   "estUnit": 40,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
+  },
+  {
+   "id": "i062",
+   "category": "Conforto",
+   "name": "Ventilador",
+   "qty": 1,
+   "estUnit": 300,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Conferir voltagem."
+  },
+  {
+   "id": "i063",
+   "category": "Logística",
+   "name": "Frete e montagem",
+   "qty": 1,
+   "estUnit": 1000,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Preencher com o custo efetivo."
+  },
+  {
+   "id": "i064",
+   "category": "Reserva",
+   "name": "Reserva para imprevistos",
+   "qty": 1,
+   "estUnit": 1550,
+   "realUnit": null,
+   "bought": false,
+   "notes": "Valor reservado; não é compra obrigatória."
+  }
+ ],
+ "priorities": [
+  {
+   "title": "Estrutura básica de sobrevivência",
+   "items": [
+    {
+     "text": "Geladeira",
+     "done": false
+    },
+    {
+     "text": "Fogão",
+     "done": false
+    },
+    {
+     "text": "Panelas e frigideira",
+     "done": false
+    },
+    {
+     "text": "Pratos, copos e talheres",
+     "done": false
+    },
+    {
+     "text": "Colchão e cama da mãe",
+     "done": false
+    },
+    {
+     "text": "Cama e colchão do filho",
+     "done": false
+    },
+    {
+     "text": "Travesseiros, lençóis e cobertores",
+     "done": false
+    },
+    {
+     "text": "Toalhas de banho",
+     "done": false
+    }
+   ]
+  },
+  {
+   "title": "Funcionalidade da casa",
+   "items": [
+    {
+     "text": "Máquina de lavar roupas",
+     "done": false
+    },
+    {
+     "text": "Armário de cozinha",
+     "done": false
+    },
+    {
+     "text": "Guarda-roupa da mãe",
+     "done": false
+    },
+    {
+     "text": "Cômoda ou armário do filho",
+     "done": false
+    },
+    {
+     "text": "Baldes, vassoura, rodo e produtos de limpeza",
+     "done": false
+    },
+    {
+     "text": "Varal",
+     "done": false
+    },
+    {
+     "text": "Filtro de água",
+     "done": false
+    },
+    {
+     "text": "Micro-ondas",
+     "done": false
+    }
+   ]
+  },
+  {
+   "title": "Organização e convivência",
+   "items": [
+    {
+     "text": "Mesa de jantar",
+     "done": false
+    },
+    {
+     "text": "Cadeiras",
+     "done": false
+    },
+    {
+     "text": "Liquidificador",
+     "done": false
+    },
+    {
+     "text": "Potes e utensílios complementares",
+     "done": false
+    },
+    {
+     "text": "Espelho e acessórios do banheiro",
+     "done": false
+    },
+    {
+     "text": "Cortinas",
+     "done": false
+    },
+    {
+     "text": "Lixeiras",
+     "done": false
+    }
+   ]
+  },
+  {
+   "title": "Deixar a casa gostosa de morar",
+   "items": [
+    {
+     "text": "Sofá",
+     "done": false
+    },
+    {
+     "text": "Smart TV",
+     "done": false
+    },
+    {
+     "text": "Rack ou painel",
+     "done": false
+    },
+    {
+     "text": "Ventilador",
+     "done": false
+    },
+    {
+     "text": "Decoração",
+     "done": false
+    },
+    {
+     "text": "Organizadores e complementos",
+     "done": false
+    }
+   ]
+  }
+ ],
+ "updatedAt": null
+}
