@@ -650,7 +650,7 @@
    "qty": 40.2,
    "estUnit": 29.9,
    "realUnit": 29.9,
-   "bought": false,
+   "bought": true,
    "notes": ""
   },
   {
@@ -660,7 +660,7 @@
    "qty": 3,
    "estUnit": 44.9,
    "realUnit": 44.9,
-   "bought": false,
+   "bought": true,
    "notes": ""
   },
   {
@@ -670,7 +670,7 @@
    "qty": 1,
    "estUnit": 45,
    "realUnit": 45,
-   "bought": false,
+   "bought": true,
    "notes": ""
   }
  ],
@@ -812,5 +812,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:36:08.716Z"
+ "updatedAt": "2026-11-22T22:37:47.206Z"
 }
