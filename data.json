@@ -648,7 +648,7 @@
    "category": "Reforma",
    "name": "Piso",
    "qty": 40,
-   "estUnit": 0,
+   "estUnit": 27.9,
    "realUnit": null,
    "bought": false,
    "notes": ""
@@ -802,5 +802,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T21:33:57.884Z"
+ "updatedAt": "2026-11-22T21:34:46.704Z"
 }
