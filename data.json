@@ -646,10 +646,10 @@
   {
    "id": "imwscmjcs",
    "category": "Reforma",
-   "name": "Piso",
-   "qty": 40,
-   "estUnit": 27.9,
-   "realUnit": null,
+   "name": "Piso Incenor",
+   "qty": 40.2,
+   "estUnit": 29.9,
+   "realUnit": 29.9,
    "bought": false,
    "notes": ""
   },
@@ -658,8 +658,8 @@
    "category": "Reforma",
    "name": "Soleira de 80cm",
    "qty": 3,
-   "estUnit": 0,
-   "realUnit": null,
+   "estUnit": 44.9,
+   "realUnit": 44.9,
    "bought": false,
    "notes": ""
   }
@@ -802,5 +802,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T21:41:37.069Z"
+ "updatedAt": "2026-11-22T22:35:34.552Z"
 }
