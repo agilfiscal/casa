@@ -16,7 +16,7 @@
   {
    "id": "i002",
    "category": "Cozinha",
-   "name": "Fogão 4 bocas",
+   "name": "Fogão 5 bocas",
    "qty": 1,
    "estUnit": 650,
    "realUnit": 599.9,
@@ -782,5 +782,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T21:25:54.883Z"
+ "updatedAt": "2026-11-22T21:26:09.227Z"
 }
