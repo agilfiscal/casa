@@ -732,6 +732,16 @@
    "realUnit": 32.9,
    "bought": true,
    "notes": ""
+  },
+  {
+   "id": "imwsfaaiz",
+   "category": "Reforma",
+   "name": "Argamassa banheiro",
+   "qty": 8,
+   "estUnit": 31.9,
+   "realUnit": 31.9,
+   "bought": true,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -872,5 +882,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:42:28.469Z"
+ "updatedAt": "2026-11-22T22:43:17.962Z"
 }
