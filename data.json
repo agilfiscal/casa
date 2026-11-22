@@ -742,6 +742,16 @@
    "realUnit": 31.9,
    "bought": true,
    "notes": ""
+  },
+  {
+   "id": "imwsfb4tw",
+   "category": "Reforma",
+   "name": "Reajunte",
+   "qty": 11,
+   "estUnit": 11.9,
+   "realUnit": 11.9,
+   "bought": true,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -882,5 +892,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:43:17.962Z"
+ "updatedAt": "2026-11-22T22:43:58.208Z"
 }
