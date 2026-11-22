@@ -642,6 +642,16 @@
    "realUnit": null,
    "bought": false,
    "notes": "Valor reservado; não é compra obrigatória."
+  },
+  {
+   "id": "imwscmjcs",
+   "category": "Reforma",
+   "name": "Piso",
+   "qty": 40,
+   "estUnit": 0,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -782,5 +792,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T21:27:27.725Z"
+ "updatedAt": "2026-11-22T21:28:52.442Z"
 }
