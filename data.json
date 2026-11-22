@@ -712,6 +712,16 @@
    "realUnit": 32.9,
    "bought": true,
    "notes": ""
+  },
+  {
+   "id": "imwsf81an",
+   "category": "Reforma",
+   "name": "Porta da frente ",
+   "qty": 1,
+   "estUnit": 779.9,
+   "realUnit": 779.9,
+   "bought": true,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -852,5 +862,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:41:00.727Z"
+ "updatedAt": "2026-11-22T22:41:32.438Z"
 }
