@@ -682,6 +682,16 @@
    "realUnit": 12.9,
    "bought": true,
    "notes": ""
+  },
+  {
+   "id": "imwsf56jq",
+   "category": "Reforma",
+   "name": "Argamassa ac3",
+   "qty": 5,
+   "estUnit": 32.9,
+   "realUnit": 32.9,
+   "bought": true,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -822,5 +832,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:38:47.629Z"
+ "updatedAt": "2026-11-22T22:39:20.042Z"
 }
