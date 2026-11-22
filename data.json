@@ -762,6 +762,16 @@
    "realUnit": 279.9,
    "bought": true,
    "notes": ""
+  },
+  {
+   "id": "imwsfcmnt",
+   "category": "Reforma",
+   "name": "Fechadura do quarto",
+   "qty": 1,
+   "estUnit": 79.9,
+   "realUnit": 79.9,
+   "bought": true,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -902,5 +912,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:44:34.137Z"
+ "updatedAt": "2026-11-22T22:45:03.756Z"
 }
