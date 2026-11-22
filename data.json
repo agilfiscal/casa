@@ -652,6 +652,16 @@
    "realUnit": null,
    "bought": false,
    "notes": ""
+  },
+  {
+   "id": "imwsct9xc",
+   "category": "Reforma",
+   "name": "Soleira de 80cm",
+   "qty": 3,
+   "estUnit": 0,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -792,5 +802,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T21:28:52.442Z"
+ "updatedAt": "2026-11-22T21:33:57.884Z"
 }
