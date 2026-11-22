@@ -672,6 +672,16 @@
    "realUnit": 45,
    "bought": true,
    "notes": ""
+  },
+  {
+   "id": "imwsf475w",
+   "category": "Reforma",
+   "name": "Argamassa Ac1",
+   "qty": 8,
+   "estUnit": 12.9,
+   "realUnit": 12.9,
+   "bought": true,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -812,5 +822,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:37:47.206Z"
+ "updatedAt": "2026-11-22T22:38:47.629Z"
 }
