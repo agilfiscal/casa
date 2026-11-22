@@ -772,6 +772,16 @@
    "realUnit": 79.9,
    "bought": true,
    "notes": ""
+  },
+  {
+   "id": "imwsfd939",
+   "category": "Reforma",
+   "name": "Dobradiça do quarto",
+   "qty": 1,
+   "estUnit": 17.9,
+   "realUnit": 17.9,
+   "bought": true,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -912,5 +922,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:45:03.756Z"
+ "updatedAt": "2026-11-22T22:45:27.775Z"
 }
