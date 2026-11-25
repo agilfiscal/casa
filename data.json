@@ -792,6 +792,16 @@
    "realUnit": 1500,
    "bought": false,
    "notes": ""
+  },
+  {
+   "id": "imwwltd30",
+   "category": "Reforma",
+   "name": "Blocos",
+   "qty": 100,
+   "estUnit": 1.3,
+   "realUnit": null,
+   "bought": false,
+   "notes": ""
   }
  ],
  "priorities": [
@@ -944,5 +954,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-25T20:54:26.662Z"
+ "updatedAt": "2026-11-25T20:57:36.020Z"
 }
