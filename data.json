@@ -899,6 +899,10 @@
     {
      "text": "Lixeiras",
      "done": false
+    },
+    {
+     "text": "Microondas",
+     "done": false
     }
    ]
   },
@@ -932,5 +936,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-25T20:45:53.832Z"
+ "updatedAt": "2026-11-25T20:52:13.202Z"
 }
