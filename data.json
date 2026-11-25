@@ -849,6 +849,10 @@
     {
      "text": "Toalhas de banho",
      "done": false
+    },
+    {
+     "text": "Baldes, vassoura, rodo e produtos de limpeza",
+     "done": false
     }
    ]
   },
@@ -864,15 +868,11 @@
      "done": false
     },
     {
-     "text": "Guarda-roupa da mãe",
+     "text": "Guarda-roupa",
      "done": false
     },
     {
      "text": "Cômoda ou armário do filho",
-     "done": false
-    },
-    {
-     "text": "Baldes, vassoura, rodo e produtos de limpeza",
      "done": false
     },
     {
@@ -921,7 +921,7 @@
      "done": false
     },
     {
-     "text": "Microondas",
+     "text": "Ventilador de Teto",
      "done": false
     }
    ]
@@ -964,5 +964,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-25T20:58:06.950Z"
+ "updatedAt": "2026-11-25T21:00:12.686Z"
 }
