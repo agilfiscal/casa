@@ -810,7 +810,7 @@
    "qty": 1,
    "estUnit": 57,
    "realUnit": 57,
-   "bought": false,
+   "bought": true,
    "notes": ""
   }
  ],
@@ -964,5 +964,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-25T20:57:59.352Z"
+ "updatedAt": "2026-11-25T20:58:06.950Z"
 }
