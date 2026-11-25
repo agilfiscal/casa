@@ -789,8 +789,8 @@
    "name": "Mão de obra",
    "qty": 1,
    "estUnit": 5000,
-   "realUnit": null,
-   "bought": false,
+   "realUnit": 1500,
+   "bought": true,
    "notes": ""
   }
  ],
@@ -932,5 +932,5 @@
    ]
   }
  ],
- "updatedAt": "2026-11-22T22:46:26.201Z"
+ "updatedAt": "2026-11-25T20:44:47.642Z"
 }
